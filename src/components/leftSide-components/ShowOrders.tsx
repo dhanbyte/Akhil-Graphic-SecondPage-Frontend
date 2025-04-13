@@ -46,7 +46,7 @@ const ShowOrder = () => {
                   <td className="p-4">
                     {order.file ? (
                       <a
-                        href={`http://localhost:5500/uploads/${order.file}`}
+                        href={`https://akhil-graphic-part-twobackend.onrender.com/uploads/${order.file}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-500 underline"
