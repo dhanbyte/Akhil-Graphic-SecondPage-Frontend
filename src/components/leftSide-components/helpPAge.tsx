@@ -79,5 +79,7 @@ export default function HelpPage() {
         </button>
       )}
     </div>
-  );
-}
+)
+
+
+    }

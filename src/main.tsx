@@ -13,6 +13,9 @@ import ProfilePage from "./components/leftSide-components/profilePage";
 import HelpPage from "./components/leftSide-components/helpPAge";
 import ShowOrder from "./components/leftSide-components/ShowOrders";
 import { Provider } from "react-redux";
+import AddMoney from "./components/admoney";
+
+
 
 // Import your Publishable Key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
@@ -31,7 +34,8 @@ const router = createBrowserRouter([
       { path: "/products/:subcategory_slug", element: <SubChildCard /> },
       { path: "/profile", element: <ProfilePage /> },
       { path: "/help", element: <HelpPage /> },
-      { path: "/order", element:<ShowOrder/>}
+      { path: "/order", element:<ShowOrder/>},
+      { path: "/AddMoney", element : <AddMoney></AddMoney> }
     ],
   },
 ]);
